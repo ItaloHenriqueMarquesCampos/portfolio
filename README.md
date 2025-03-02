@@ -1,7 +1,9 @@
 **Relatório de cancelamentos, trocas e trancamentos do Pincel Atômico**
 
 Painel de Retenção de Alunos
+
 📌 Visão Geral do Projeto
+
 Este projeto teve como objetivo monitorar e analisar cancelamentos de alunos nos cursos, fornecendo insights estratégicos para melhorar a retenção. A análise foi realizada com base em dados acadêmicos, aplicando técnicas avançadas para identificar padrões e causas da evasão.
 
 📌 Metodologia
@@ -17,17 +19,28 @@ A abordagem utilizada incluiu:
 ✔ Visualização de Dados – Desenvolvimento de um dashboard interativo para acompanhamento em tempo real.
 
 📌 Resultados
+
 A análise revelou insights estratégicos que ajudaram na formulação de ações para reduzir a evasão. Entre os principais achados:
+
 ✔ Identificação dos cursos com maior índice de cancelamento.
+
 ✔ Detecção dos períodos críticos de evasão.
+
 ✔ Principais motivos que levam os alunos a desistirem.
+
 ✔ Desenvolvimento de estratégias para melhorar a retenção.
 
+
 📌 Ferramentas Usadas
+
 🛠 Looker Studio – Construção do dashboard de monitoramento.
+
 🛠 SQL (MySQL) – Extração e manipulação de dados.
+
 🛠 Análise Estatística – Identificação de padrões e tendências.
+
 🛠 Pincel Atômico – Base de dados do sistema acadêmico.
+
 
 Este projeto permitiu ações estratégicas baseadas em dados, ajudando a reduzir cancelamentos e aprimorar a experiência dos alunos. 🚀📊
 
