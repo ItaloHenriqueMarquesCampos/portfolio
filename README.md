@@ -9,6 +9,7 @@ A abordagem utilizada incluiu:
 ✔ Coleta de Dados – Extração de informações do sistema acadêmico Pincel Atômico e armazenamento em banco de dados.
 ✔ Tratamento e Limpeza – Padronização e categorização dos motivos de cancelamento.
 ✔ Análise Estatística – Identificação de padrões, sazonalidade e fatores críticos de desistência.
+
 ✔ Visualização de Dados – Desenvolvimento de um dashboard interativo para acompanhamento em tempo real.
 
 📌 Resultados
