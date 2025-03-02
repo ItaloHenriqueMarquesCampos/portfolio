@@ -8,3 +8,5 @@
 Essa atualização visa aprimorar a análise de dados e facilitar a tomada de decisões estratégicas.
 
 **Link Restrito:** https://lookerstudio.google.com/reporting/1360591d-bfe6-4aaa-b5d0-f22090695be8
+
+![Uploading cancelamentos.jpg…]()
