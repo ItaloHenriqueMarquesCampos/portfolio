@@ -5,9 +5,13 @@ Painel de Retenção de Alunos
 Este projeto teve como objetivo monitorar e analisar cancelamentos de alunos nos cursos, fornecendo insights estratégicos para melhorar a retenção. A análise foi realizada com base em dados acadêmicos, aplicando técnicas avançadas para identificar padrões e causas da evasão.
 
 📌 Metodologia
+
 A abordagem utilizada incluiu:
+
 ✔ Coleta de Dados – Extração de informações do sistema acadêmico Pincel Atômico e armazenamento em banco de dados.
+
 ✔ Tratamento e Limpeza – Padronização e categorização dos motivos de cancelamento.
+
 ✔ Análise Estatística – Identificação de padrões, sazonalidade e fatores críticos de desistência.
 
 ✔ Visualização de Dados – Desenvolvimento de um dashboard interativo para acompanhamento em tempo real.
