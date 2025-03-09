@@ -41,4 +41,6 @@ O processo foi estruturado em quatro etapas:
 
 📌 Impacto: Com esse dashboard, os empresários podem visualizar o desempenho de suas vendas em tempo real, tomar decisões estratégicas mais assertivas e otimizar seus processos comerciais. 🚀
 
+Como o projeto é gratuito e focado em facilitar o acompanhamento de vendas, foi desenvolvido utilizando Google Sheets para uma implementação simples e acessível.
+
 ![WhatsApp Image 2025-03-09 at 03 08 57](https://github.com/user-attachments/assets/edefb0a7-a292-4c73-afad-ffd7090397b7)
