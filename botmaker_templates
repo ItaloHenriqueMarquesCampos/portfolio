@@ -1,6 +1,8 @@
 📌 **Projeto: Dashboard de Envio de Templates Botmaker**
 📍 Visão Geral do Projeto
-Este projeto foi desenvolvido para monitorar e otimizar o processo de envio de templates via Botmaker. O relatório fornece uma visão detalhada do desempenho dos templates, identificando os mais utilizados, os usuários mais impactados e os canais de envio mais eficientes. Além disso, permite acompanhar métricas importantes como taxa de envio, entrega, leitura e resposta, além de analisar os templates não enviados e os motivos das falhas.
+Este projeto foi desenvolvido para monitorar e otimizar o processo de envio de templates via Botmaker. 
+O relatório fornece uma visão detalhada do desempenho dos templates, identificando os mais utilizados, os usuários mais impactados e os canais de envio mais eficientes. 
+Além disso, permite acompanhar métricas importantes como taxa de envio, entrega, leitura e resposta, além de analisar os templates não enviados e os motivos das falhas.
 
 📍 Metodologia
 A abordagem seguiu quatro etapas essenciais:
@@ -17,9 +19,8 @@ A abordagem seguiu quatro etapas essenciais:
 
 📍 Ferramentas Usadas
 🛠 Looker Studio – Para visualização e criação dos dashboards interativos.
-📌 SQL – Para extração e modelagem dos dados.
-📊 Botmaker API – Para captura de métricas sobre envios e respostas.
+📌 Google Sheets – Para extração e modelagem dos dados.
 📉 Análise Estatística – Para compreensão das taxas de sucesso e falha.
 
-📌 Impacto: Com esse dashboard, as equipes conseguem otimizar o uso de templates, melhorar a taxa de resposta e minimizar falhas no envio, garantindo maior eficiência na comunicação. 🚀
+📌 Impacto: Com esse dashboard, as equipes conseguem otimizar o uso de templates, melhorar a taxa de resposta e minimizar falhas no envio, garantindo maior eficiência na comunicação.
 
