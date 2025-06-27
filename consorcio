@@ -1,0 +1,81 @@
+📊 Painel de Comissionamento de Vendas – Consórcio
+Este projeto foi desenvolvido para uma empresa do setor de consórcios, com o objetivo de automatizar o controle de comissões de vendas, tornando o processo mais transparente, preciso e escalável. A solução combina o uso de Google Sheets com Looker Studio para visualização interativa dos dados.
+
+🧩 Objetivo do Projeto
+Criar um sistema completo de acompanhamento e cálculo de comissões para:
+
+Vendedores
+
+Gestores
+
+Administração da empresa
+
+🛠️ Tecnologias Utilizadas
+Google Sheets – para estruturação dos dados e fórmulas automatizadas de comissionamento.
+
+Looker Studio (antigo Data Studio) – para visualização dinâmica dos dados.
+
+Fórmulas Avançadas (SE, PROCV, LET, SOMASES, FILTRO, etc.)
+
+Atualização automática a cada 15 minutos via integração com Google Sheets.
+
+⚙️ Funcionalidades
+✅ Planilha Inteligente
+Cálculo automatizado de comissões baseado em:
+
+Mês da venda
+
+Nível do vendedor
+
+Tipo de produto (Imóvel ou Automóvel)
+
+Percentuais variáveis por parcela e perfil
+
+Painel com estrutura para múltiplas entradas de vendas
+
+Controle de parcelas comissionadas mês a mês
+
+Fórmulas protegidas contra erros, células em branco e duplicações
+
+✅ Tabela de Comissionamento
+Definição clara de percentuais de comissão por perfil e tipo de venda
+
+Até 18 parcelas com valores distintos por nível e categoria
+
+Flexibilidade para alterar regras de comissionamento sem quebrar a planilha
+
+✅ Dashboard no Looker Studio
+Visualização por vendedor, gestor e período
+
+Filtros por mês, tipo de venda, status e outros critérios
+
+Exportação para PDF e Google Sheets
+
+Atualização automática dos dados (a cada 15 minutos)
+
+📌 Destaques Técnicos
+Fórmulas com controle condicional de parcelas (início do comissionamento baseado no mês da venda)
+
+Validação de dados para garantir integridade
+
+Fórmulas robustas com tratamento de:
+
+Células vazias
+
+Erros de busca
+
+Cálculo dinâmico por mês
+
+Possibilidade de adaptação para outros modelos de negócio com comissionamento recorrente
+
+🎁 Benefícios da Solução
+Redução de erros manuais no cálculo de comissão
+
+Maior transparência para os envolvidos
+
+Facilidade de auditoria e exportação de relatórios
+
+Melhora na gestão de metas e desempenho
+
+🔒 Observações
+Este repositório contém apenas a estrutura genérica do projeto (sem dados reais) para fins demonstrativos. Dados e regras específicas foram adaptados de acordo com a operação da empresa cliente.
