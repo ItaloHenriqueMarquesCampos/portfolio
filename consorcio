@@ -1,81 +1,65 @@
-** 📊 Painel de Comissionamento de Vendas – Consórcio
-Este projeto foi desenvolvido para uma empresa do setor de consórcios, com o objetivo de automatizar o controle de comissões de vendas, tornando o processo mais transparente, preciso e escalável. A solução combina o uso de Google Sheets com Looker Studio para visualização interativa dos dados.
+# 📊 Painel de Comissionamento de Vendas – Consórcio
 
-🧩 Objetivo do Projeto
-Criar um sistema completo de acompanhamento e cálculo de comissões para:
+**Desenvolvimento de uma solução completa para automatizar o cálculo de comissões, otimizar a gestão de vendas e facilitar a visualização de resultados em empresas do setor de consórcios.**
 
-Vendedores
+---
 
-Gestores
+## 🔧 Tecnologias Utilizadas
 
-Administração da empresa
+- 📄 **Google Sheets** – Estruturação dos dados e lógica de cálculo
+- 📊 **Looker Studio** – Visualização de resultados por meio de dashboards interativos
+- 🧠 **Fórmulas avançadas** – `SE`, `SOMASES`, `PROCV`, `LET`, `CORRESP`, `COL`, `SEERRO`, entre outras
+- ⏱️ **Atualização automática** – A cada 15 minutos via Google Sheets
 
-🛠️ Tecnologias Utilizadas
-Google Sheets – para estruturação dos dados e fórmulas automatizadas de comissionamento.
+---
 
-Looker Studio (antigo Data Studio) – para visualização dinâmica dos dados.
+## 🎯 Objetivos do Projeto
 
-Fórmulas Avançadas (SE, PROCV, LET, SOMASES, FILTRO, etc.)
+- Automatizar o controle de comissões por **vendedor**, **gestor** e para a **empresa**
+- Facilitar o acompanhamento mensal de parcelas comissionadas
+- Reduzir erros manuais no cálculo e controle de metas
+- Fornecer visualizações amigáveis e exportáveis
 
-Atualização automática a cada 15 minutos via integração com Google Sheets.
+---
 
-⚙️ Funcionalidades
-✅ Planilha Inteligente
-Cálculo automatizado de comissões baseado em:
+## ⚙️ Funcionalidades
 
-Mês da venda
+### 📋 Estrutura da Planilha
 
-Nível do vendedor
+- Cálculo automático baseado em:
+  - Mês da venda (`L`)
+  - Nível do vendedor (`Q`)
+  - Segmento (Imóvel ou Automóvel) (`F`)
+  - Base de cálculo (`N`)
+- Controle das **parcelas** comissionadas de acordo com o mês da venda
+- Fórmulas robustas com tratamento de erros e valores nulos
+- Comissões adaptáveis de 1ª a 18ª parcela por perfil
 
-Tipo de produto (Imóvel ou Automóvel)
+### 📊 Painel no Looker Studio
 
-Percentuais variáveis por parcela e perfil
+- Filtros por:
+  - Nome do vendedor
+  - Mês
+  - Tipo de produto
+  - Status da venda
+- Atualização a cada 15 minutos
+- Exportação para PDF ou Google Sheets
+- Relatórios segmentáveis para gestão individual
 
-Painel com estrutura para múltiplas entradas de vendas
+---
 
-Controle de parcelas comissionadas mês a mês
+## 🧠 Destaques Técnicos
 
-Fórmulas protegidas contra erros, células em branco e duplicações
-
-✅ Tabela de Comissionamento
-Definição clara de percentuais de comissão por perfil e tipo de venda
-
-Até 18 parcelas com valores distintos por nível e categoria
-
-Flexibilidade para alterar regras de comissionamento sem quebrar a planilha
-
-✅ Dashboard no Looker Studio
-Visualização por vendedor, gestor e período
-
-Filtros por mês, tipo de venda, status e outros critérios
-
-Exportação para PDF e Google Sheets
-
-Atualização automática dos dados (a cada 15 minutos)
-
-📌 Destaques Técnicos
-Fórmulas com controle condicional de parcelas (início do comissionamento baseado no mês da venda)
-
-Validação de dados para garantir integridade
-
-Fórmulas robustas com tratamento de:
-
-Células vazias
-
-Erros de busca
-
-Cálculo dinâmico por mês
-
-Possibilidade de adaptação para outros modelos de negócio com comissionamento recorrente
-
-🎁 Benefícios da Solução
-Redução de erros manuais no cálculo de comissão
-
-Maior transparência para os envolvidos
-
-Facilidade de auditoria e exportação de relatórios
-
-Melhora na gestão de metas e desempenho
-
-🔒 Observações
-Este repositório contém apenas a estrutura genérica do projeto (sem dados reais) para fins demonstrativos. Dados e regras específicas foram adaptados de acordo com a operação da empresa cliente.
+```excel
+=SEERRO(
+  SE(
+    E(
+      COL() - COL($V$2) + 1 >= CORRESP($L3; {"Janeiro";"Fevereiro";...}; 0);
+      ÉNÚM(PROCV($U3; ...));
+      $P3 > 0
+    );
+    PROCV(...) * $P3;
+    ""
+  );
+  ""
+)
