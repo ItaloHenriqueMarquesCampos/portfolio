@@ -178,3 +178,6 @@ Após toda a criação do repositório extraído de mais de 100 planilhas comerc
 Link da planilha final 
 Exemplo:
 https://docs.google.com/spreadsheets/d/13AcERuLeQ0qkJMYsGRNhPdl87tpjcN-i1fXhfODhiN4/edit?usp=sharing
+
+![Black and Purple Modern Technology Presentation](https://github.com/user-attachments/assets/551054d0-9b7e-417c-98ac-1ac90f55a2c9)
+
