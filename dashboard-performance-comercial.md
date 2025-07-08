@@ -174,3 +174,7 @@ Essa fórmula busca, da primeira página, o nome do vendedor responsável por ca
 > ⚙️ Essa estrutura foi essencial para alimentar o dashboard em tempo real com **dados completos**, assegurando granularidade, rastreabilidade e análise detalhada.
 
 Após toda a criação do repositório extraído de mais de 100 planilhas comercias, foi criada a dashboard com os dados.
+
+Link da planilha final 
+Exemplo:
+https://docs.google.com/spreadsheets/d/13AcERuLeQ0qkJMYsGRNhPdl87tpjcN-i1fXhfODhiN4/edit?usp=sharing
