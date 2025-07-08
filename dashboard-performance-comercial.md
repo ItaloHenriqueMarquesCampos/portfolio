@@ -143,3 +143,34 @@ Baseada no ciclo **PDCA (Plan-Do-Check-Act)**:
 - Aumento do desempenho individual e por equipe  
 - Melhor gestão de leads e aproveitamento de campanhas  
 - Visibilidade clara e centralizada do funil de vendas
+
+---
+
+## 🧩 Estrutura Técnica da Planilha Mestra (Integração em Tempo Real)
+
+Para consolidar os dados de mais de 100 vendedores em tempo real, foi criada uma **planilha mestre** no Google Sheets, composta por duas páginas principais:
+
+### 📄 Página 1 – Catálogo de Planilhas dos Vendedores
+Cada linha representa um vendedor, contendo o nome do colaborador e o link da respectiva planilha individual.  
+Foi utilizado o `IMPORTRANGE` para buscar os dados diretamente de cada planilha de forma automática.
+
+### 📄 Página 2 – Coleta Consolidada de Vendas
+Nesta aba, foram organizadas fórmulas que extraem os dados de cada vendedor com base na estrutura:
+
+```excel
+=QUERY((IMPORTRANGE('DADOS DE PLANILHAS'!C2;"PREENCHIMENTO-MEXER!A5:S200")))
+```
+
+Essa fórmula é aplicada a cada 200 linhas, que corresponde aproximadamente ao número máximo de vendas mensais por vendedor. O objetivo é **extrair os dados completos das vendas**, e não apenas resumos financeiros.
+
+Para identificar automaticamente o responsável por cada venda, foi usada a fórmula:
+
+```excel
+=SE(H2<>""; 'DADOS DE PLANILHAS'!$B$2; "")
+```
+
+Essa fórmula busca, da primeira página, o nome do vendedor responsável por cada intervalo de vendas conforme os dados forem preenchidos.
+
+> ⚙️ Essa estrutura foi essencial para alimentar o dashboard em tempo real com **dados completos**, assegurando granularidade, rastreabilidade e análise detalhada.
+
+Após toda a criação do repositório extraído de mais de 100 planilhas comercias, foi criada a dashboard com os dados.
