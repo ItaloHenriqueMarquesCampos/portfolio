@@ -6,6 +6,8 @@
 
 ---
 
+<img width="1919" height="954" alt="image" src="https://github.com/user-attachments/assets/0dcc6451-eecb-460e-ac1f-9d15a589387d" />
+
 ## 🚀 **VISÃO GERAL**
 
 Este projeto simula um cenário real de negócio, utilizando dados de uma *empresa fictícia* para construir um dashboard analítico completo.
