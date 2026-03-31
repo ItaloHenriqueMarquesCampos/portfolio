@@ -1,0 +1,40 @@
+📊 **Dashboard Analítico de Vendas e Estoque**
+
+Neste projeto foram utilizados dados de uma empresa fictícia, organizados em duas bases (Vendas e Estoque), 
+com o objetivo de analisar o desempenho comercial e gerar insights para apoio à tomada de decisão.
+
+O dashboard foi desenvolvido no Looker Studio, com integração direta ao Google Sheets.
+
+📂 *Fontes de Dados*
+Base 1: Inventário / Estoque
+Base 2: Vendas
+🎯 *Objetivo do Dashboard*
+
+Analisar o desempenho de vendas, controle de estoque e comportamento de clientes, permitindo uma visão integrada do negócio.
+
+❓ *Perguntas de Negócio*
+
+Pergunta 1 - Qual a receita total, custo total e margem de lucro?
+Pergunta 2 - Qual o ticket médio das vendas realizadas?
+Pergunta 3 - Qual a quantidade total de produtos vendidos no período?
+Pergunta 4 - Como está o histórico de vendas ao longo do tempo?
+Pergunta 5 - Quais são os produtos com maior faturamento?
+Pergunta 6 - Quais vendedores geram maior receita?
+Pergunta 7 - Quais regiões possuem maior volume de vendas?
+Pergunta 8 - Qual a distribuição por método de pagamento?
+Pergunta 9 - Qual o perfil dos clientes (gênero)?
+
+⚙️ *Funcionalidades do Dashboard*
+
+O dashboard permite ao usuário:
+
+Filtrar por período (data)
+Filtrar por vendedor
+Filtrar por cliente
+Filtrar por produto/serviço
+Filtrar por região/localização
+
+🔗 *Acessos*
+📄 Base de Estoque: [https://docs.google.com/spreadsheets/d/1mPIibSrmROtpRohOEWzcevOjDz87aFvATrGQuFgvZvw/edit?usp=sharing]
+📄 Base de Vendas: [https://docs.google.com/spreadsheets/d/1udRTEm0DiHBIqsHM2i_fAq_THh1g7er0WsEv-vCxGTE/edit?usp=sharing]
+📊 Dashboard: [https://lookerstudio.google.com/reporting/c05071f4-a62a-4f1d-add1-968009b8d4a1]
