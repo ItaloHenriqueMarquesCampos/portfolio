@@ -67,10 +67,10 @@ O dashboard permite ao usuário:
 ## 🔗 **ACESSOS**
 
 - 📄 **Base de Dados**  
-  [Inserir link aqui]  
+  [https://docs.google.com/spreadsheets/d/1kBVlCr0CH-fbXLZF8JkpyVxzz5_yIN1OZNXpQ18Db4g/edit?usp=sharing]  
 
 - 📊 **Dashboard Interativo**  
-  [Inserir link aqui]  
+  [https://lookerstudio.google.com/reporting/12a12936-16ae-43a1-abc5-7373010e7f31]  
 
 ---
 
