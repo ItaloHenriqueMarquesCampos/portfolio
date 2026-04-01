@@ -5,6 +5,7 @@
 </p>
 
 ---
+<img width="1919" height="940" alt="image" src="https://github.com/user-attachments/assets/671f594a-4ea5-4663-9fea-fbcffcecb214" />
 
 ## 🚀 **VISÃO GERAL**
 
