@@ -1,4 +1,4 @@
-# 📊 **DASHBOARD ANALÍTICO DE VENDAS**
+# 📊 **DASHBOARD ANALÍTICO DE FINANCEIRO**
 
 <p align="center">
   <i>Análise de desempenho comercial com foco em faturamento, clientes e comportamento de compra para apoio à tomada de decisão.</i>
