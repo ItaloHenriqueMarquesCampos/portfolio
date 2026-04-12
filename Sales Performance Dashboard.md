@@ -1,52 +1,90 @@
-#🚀 **VISÃO GERAL**
-Neste projeto foram utilizados dados simulados de vendas e desempenho comercial, organizados em uma base no Google Sheets para análise exploratória.
+# 📊 **DASHBOARD ANALÍTICO DE VENDAS**
 
-O dashboard foi desenvolvido no Looker Studio, com o objetivo de monitorar indicadores de vendas, entender o comportamento dos clientes e apoiar a tomada de decisão estratégica.
+<p align="center">
+  <i>Análise de desempenho comercial com foco em faturamento, clientes e comportamento de compra para apoio à tomada de decisão.</i>
+</p>
+
 ---
+
+<p align="center">
+  <img width="100%" alt="Dashboard Preview" src="https://github.com/user-attachments/assets/671f594a-4ea5-4663-9fea-fbcffcecb214" />
+</p>
+
+---
+
+## 🚀 **VISÃO GERAL**
+
+Neste projeto foram utilizados dados simulados de *vendas e performance comercial*, organizados em uma base no *Google Sheets*.
+
+O dashboard foi desenvolvido no *Looker Studio*, com o objetivo de analisar o desempenho das vendas, identificar padrões de consumo e apoiar a *tomada de decisão* estratégica.
+
+---
+
 ## 📂 **FONTE DE DADOS**
-📄 Base única: Google Sheets
-📥 Dados inseridos manualmente para fins de análise e aprendizado
----
-## 🎯 **OBJETIVO DO DASHBOARD**
-Analisar a performance comercial e de vendas, avaliando métricas de:
 
-💰 Faturamento
-🛒 Volume de vendas
-👥 Clientes
-📦 Produtos
+- 📄 **Base única:** *Google Sheets*  
+  <sub>Dados inseridos para fins de análise e aprendizado</sub>
+
 ---
+
+## 🎯 **OBJETIVO DO DASHBOARD**
+
+Analisar a performance comercial, avaliando métricas de:
+
+- 💰 *Faturamento*  
+- 🛒 *Volume de vendas*  
+- 👥 *Clientes*  
+- 📦 *Produtos*  
+
+---
+
 ## ❓ **PERGUNTAS DE NEGÓCIO**
-Qual o faturamento total no período analisado?
-Quantas vendas foram realizadas?
-Qual o ticket médio por venda?
-Quais produtos geram maior faturamento?
-Quais categorias possuem melhor desempenho?
-Como está a evolução das vendas ao longo do tempo?
-Quais clientes mais compram ou geram maior receita?
-Existe sazonalidade nas vendas?
+
+1. **Qual o faturamento total no período analisado?**  
+2. **Quantas vendas foram realizadas?**  
+3. **Qual o ticket médio por venda?**  
+4. **Quais produtos geram maior faturamento?**  
+5. **Quais categorias possuem melhor desempenho?**  
+6. **Como está a evolução das vendas ao longo do tempo?**  
+7. **Quais clientes mais geram receita?**  
+8. **Existe sazonalidade nas vendas?**  
+
 ---
+
 ## ⚙️ **FUNCIONALIDADES DO DASHBOARD**
+
 O dashboard permite ao usuário:
 
-📅 Filtrar por período (data)
-📦 Filtrar por produto ou categoria
-👥 Analisar desempenho por cliente
-📊 Visualizar métricas consolidadas de vendas
-📈 Acompanhar evolução temporal dos indicadores
+- 📅 *Filtrar por período (data)*  
+- 📦 *Filtrar por produto ou categoria*  
+- 👥 *Analisar desempenho por cliente*  
+- 📊 *Visualizar métricas consolidadas de vendas*  
+- 📈 *Acompanhar evolução temporal dos indicadores*  
 
-💡 Facilitando análises rápidas e tomadas de decisão mais estratégicas.
+> 💡 *Facilitando análises rápidas e tomadas de decisão mais estratégicas.*
+
 ---
+
 ## 🛠️ **TECNOLOGIAS UTILIZADAS**
-📊 Looker Studio
-📄 Google Sheets
+
+- 📊 *Looker Studio*  
+- 📄 *Google Sheets*  
+
 ---
+
 ## 🔗 **ACESSOS**
-📄 Base de Dados
-[Insira aqui o link da sua planilha]
+
+- 📄 **Base de Dados**  
+  https://docs.google.com/spreadsheets/d/1kBVlCr0CH-fbXLZF8JkpyVxzz5_yIN1OZNXpQ18Db4g/edit?usp=sharing  
+
+- 📊 **Dashboard Interativo**  
+  https://lookerstudio.google.com/reporting/12a12936-16ae-43a1-abc5-7373010e7f31  
+
 ---
-## 📊 **Dashboard Interativo**
-[Insira aqui o link do seu dashboard]
----
+
 ## 👨‍💻 **AUTOR**
-Ítalo Marques
-Analista de Dados
+
+**Ítalo Marques**  
+*Analista de Dados*  
+
+---
