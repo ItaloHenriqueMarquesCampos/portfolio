@@ -6,9 +6,8 @@
 
 ---
 
-<p align="center">
-  <img width="100%" alt="Dashboard Preview" src="https://github.com/user-attachments/assets/671f594a-4ea5-4663-9fea-fbcffcecb214" />
-</p>
+![WhatsApp Image 2026-04-11 at 17 02 20](https://github.com/user-attachments/assets/d0be81b6-518c-44b3-8167-fb32b3f0a5cf)
+
 
 ---
 
