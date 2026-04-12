@@ -66,18 +66,18 @@ O dashboard permite ao usuário:
 
 ## 🛠️ **TECNOLOGIAS UTILIZADAS**
 
-- 📊 *Looker Studio*  
-- 📄 *Google Sheets*  
+- 📊 *Power BI*  
+- 📄 *Excel*  
 
 ---
 
 ## 🔗 **ACESSOS**
 
 - 📄 **Base de Dados**  
-  https://docs.google.com/spreadsheets/d/1kBVlCr0CH-fbXLZF8JkpyVxzz5_yIN1OZNXpQ18Db4g/edit?usp=sharing  
+  https://docs.google.com/spreadsheets/d/16u8m4AwGvYKSMH93ImjaANTCBONx5Law/edit?usp=sharing&ouid=103868561716102039326&rtpof=true&sd=true
 
 - 📊 **Dashboard Interativo**  
-  https://lookerstudio.google.com/reporting/12a12936-16ae-43a1-abc5-7373010e7f31  
+  https://drive.google.com/drive/folders/1fR76B4vlRVZTqONth0uEtFf8fOhpHJIF?usp=sharing 
 
 ---
 
