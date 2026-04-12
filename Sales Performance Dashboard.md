@@ -1,52 +1,52 @@
-# 📊 **DASHBOARD ANALÍTICO DE FINANCEIRO**
+# 📊 **DASHBOARD FINANCEIRO NO POWER BI**
 
 <p align="center">
-  <i>Análise de desempenho comercial com foco em faturamento, clientes e comportamento de compra para apoio à tomada de decisão.</i>
+  <i>Construção de um dashboard financeiro automatizado no Power BI, com foco em análise de receitas, custos e lucro para tomada de decisão estratégica.</i>
 </p>
 
 ---
 
-![WhatsApp Image 2026-04-11 at 17 02 20](https://github.com/user-attachments/assets/d0be81b6-518c-44b3-8167-fb32b3f0a5cf)
-
+<p align="center">
+  <img width="100%" alt="Dashboard Preview" src="https://github.com/user-attachments/assets/671f594a-4ea5-4663-9fea-fbcffcecb214" />
+</p>
 
 ---
 
 ## 🚀 **VISÃO GERAL**
 
-Neste projeto foram utilizados dados simulados de *vendas e performance comercial*, organizados em uma base no *Google Sheets*.
+Neste projeto foi desenvolvido um *Dashboard Financeiro completo no Power BI*, utilizando dados provenientes de uma base em *Excel*, com tratamento realizado no *Power Query*.
 
-O dashboard foi desenvolvido no *Looker Studio*, com o objetivo de analisar o desempenho das vendas, identificar padrões de consumo e apoiar a *tomada de decisão* estratégica.
+O objetivo é eliminar processos manuais repetitivos, automatizando a análise financeira. Com isso, ao atualizar a base de dados, basta clicar em *Atualizar* para que todo o dashboard seja recalculado automaticamente.
 
 ---
 
 ## 📂 **FONTE DE DADOS**
 
 - 📄 **Base única:** *Excel*  
-  <sub>Dados inseridos para fins de análise e aprendizado</sub>
+  <sub>Dados financeiros contendo receitas, custos e despesas</sub>
 
 ---
 
 ## 🎯 **OBJETIVO DO DASHBOARD**
 
-Analisar a performance comercial, avaliando métricas de:
+Analisar a performance financeira da empresa, com foco em:
 
-- 💰 *Faturamento*  
-- 🛒 *Volume de vendas*  
-- 👥 *Clientes*  
-- 📦 *Produtos*  
+- 💰 *Receita*  
+- 💸 *Custos*  
+- 🧾 *Despesas*  
+- 📈 *Lucro*  
 
 ---
 
 ## ❓ **PERGUNTAS DE NEGÓCIO**
 
-1. **Qual o faturamento total no período analisado?**  
-2. **Quantas vendas foram realizadas?**  
-3. **Qual o ticket médio por venda?**  
-4. **Quais produtos geram maior faturamento?**  
-5. **Quais categorias possuem melhor desempenho?**  
-6. **Como está a evolução das vendas ao longo do tempo?**  
-7. **Quais clientes mais geram receita?**  
-8. **Existe sazonalidade nas vendas?**  
+1. **Qual a receita total no período analisado?**  
+2. **Qual o total de custos e despesas?**  
+3. **Qual o lucro líquido da operação?**  
+4. **Quais categorias geram mais receita?**  
+5. **Quais clientes mais contribuem para o faturamento?**  
+6. **Como receita, custos e despesas evoluem ao longo do tempo?**  
+7. **Existe variação significativa entre meses/anos?**  
 
 ---
 
@@ -54,36 +54,46 @@ Analisar a performance comercial, avaliando métricas de:
 
 O dashboard permite ao usuário:
 
-- 📅 *Filtrar por período (data)*  
-- 📦 *Filtrar por produto ou categoria*  
-- 👥 *Analisar desempenho por cliente*  
-- 📊 *Visualizar métricas consolidadas de vendas*  
-- 📈 *Acompanhar evolução temporal dos indicadores*  
+- 📅 *Filtrar por ano (dropdown)*  
+- 📊 *Visualizar KPIs financeiros consolidados*  
+- 📈 *Analisar evolução temporal (receita, custos e despesas)*  
+- 📦 *Explorar receita por categoria*  
+- 👥 *Analisar receita por cliente*  
 
-> 💡 *Facilitando análises rápidas e tomadas de decisão mais estratégicas.*
-
----
-
-## 🛠️ **TECNOLOGIAS UTILIZADAS**
-
-- 📊 *Power BI*  
-- 📄 *Excel*  
+> 💡 *Dashboard totalmente automatizado: atualização com apenas um clique.*
 
 ---
 
-## 🔗 **ACESSOS**
+## 📊 **VISUAIS DESENVOLVIDOS**
 
-- 📄 **Base de Dados**  
-  https://docs.google.com/spreadsheets/d/16u8m4AwGvYKSMH93ImjaANTCBONx5Law/edit?usp=sharing&ouid=103868561716102039326&rtpof=true&sd=true
+- 📌 KPI Receita  
+- 📌 KPI Custo  
+- 📌 KPI Despesa  
+- 📌 KPI Lucro  
+- 🍩 Receita por Categoria (gráfico de rosca)  
+- 📈 Receita por Mês/Ano (linha/área)  
+- 📊 Receita por Cliente (barras horizontais)  
+- 📉 Custos e Despesas (colunas empilhadas)  
+- 🎯 Filtro de Ano (segmentação dropdown)  
 
-- 📊 **Dashboard Interativo**  
-  https://drive.google.com/drive/folders/1fR76B4vlRVZTqONth0uEtFf8fOhpHJIF?usp=sharing 
+---
+
+## 🔄 **PROCESSO DE TRANSFORMAÇÃO DE DADOS**
+
+Os dados foram tratados utilizando *Power Query*, com etapas como:
+
+- Definição de tipos de dados  
+- Tratamento de inconsistências  
+- Padronização de colunas  
+- Criação de regras automatizadas de limpeza  
+
+> 💡 Todas as transformações são reaplicadas automaticamente a cada atualização.
 
 ---
 
-## 👨‍💻 **AUTOR**
+## 🧠 **MODELAGEM E CÁLCULOS (DAX)**
 
-**Ítalo Marques**  
-*Analista de Dados*  
+Foi criada uma coluna calculada para viabilizar o cálculo do lucro:
 
----
+```DAX
+Valor com Sinal = IF(Movimentação[Tipo] = "Saída", -Movimentação[Valor], Movimentação[Valor])
