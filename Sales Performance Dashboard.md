@@ -21,7 +21,7 @@ O dashboard foi desenvolvido no *Looker Studio*, com o objetivo de analisar o de
 
 ## 📂 **FONTE DE DADOS**
 
-- 📄 **Base única:** *Google Sheets*  
+- 📄 **Base única:** *Excel*  
   <sub>Dados inseridos para fins de análise e aprendizado</sub>
 
 ---
