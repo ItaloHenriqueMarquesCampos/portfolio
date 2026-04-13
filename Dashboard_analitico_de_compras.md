@@ -1,12 +1,8 @@
 # 🛒 **DASHBOARD ANALÍTICO DE COMPRAS**
 
-![WhatsApp Image 2026-04-13 at 19 28 14](https://github.com/user-attachments/assets/ed82c6fc-531a-4aff-8ae9-c6067f2a2394)
-
 ---
 
-<p align="center">
-  <img width="100%" alt="Dashboard Preview" src="https://github.com/user-attachments/assets/671f594a-4ea5-4663-9fea-fbcffcecb214" />
-</p>
+![WhatsApp Image 2026-04-13 at 19 28 14](https://github.com/user-attachments/assets/ed82c6fc-531a-4aff-8ae9-c6067f2a2394)
 
 ---
 
