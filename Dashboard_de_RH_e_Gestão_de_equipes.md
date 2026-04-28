@@ -115,7 +115,7 @@ A automação do relatório reduz esforço manual e aumenta a eficiência na tom
 
 ## 👨‍💻 **AUTOR**
 
-**Seu Nome**  
+**Italo Marques**  
 *Analista de Dados | Especialista em Business Intelligence*
 
 ---
